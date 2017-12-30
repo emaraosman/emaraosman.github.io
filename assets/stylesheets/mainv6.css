@@ -676,15 +676,17 @@ PORTFOLIO SECTION
 */
 
 #portfolio-section {
-	min-height: 300px;
-	height: flex;
+	/* min-height: 500px; */
+	height: auto;
 	background: rgba(235,240,255,1);
 	text-align: center;
-	padding: 10px 0px 30px 0px;
+	padding: 10px 0px 60px 0px;
 }
 
 .portfolio-container{
 	padding-top: 10px;
+	margin: 20px 0px 20px 0px;
+	height: auto;
 }
 
 .portfolio-item {
@@ -694,6 +696,8 @@ PORTFOLIO SECTION
 	margin: 0 auto;
 	padding: 10px;
 	vertical-align: top;
+	height: auto;
+	width: 400px;
 
 }
 
@@ -705,12 +709,14 @@ PORTFOLIO SECTION
 
 .port-pic {
 	width: 100%;
-	//max-width: 400px;
-	height: auto;
-	//min-height: 222px;
+	max-width: 400px;
+	height: 250px;
+	min-height: 222px;
 	box-shadow: 0px 0px 15px -2px black;
 	transition: all 0.35s ease;
-
+	background-repeat: none;
+	background-size: cover;
+	background-position: center;
 }
 
 .port-pic:hover {
@@ -719,6 +725,21 @@ PORTFOLIO SECTION
 	cursor: pointer;
 }
 
+.file1{
+	background-image: url("../images/perkkafeimg.png");
+}
+
+.file2{
+	background-image: url("../images/shleepy.png");
+}
+
+.file3{
+	background-image: url("../images/topstreams.png");
+}
+
+.file4{
+	background-image: url("../images/.png");
+}
 
 
 
