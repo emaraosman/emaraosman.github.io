@@ -912,7 +912,7 @@ MEDIA
 
 	.section2-bio p {
 			font-size: 20px;
-		}
+	}
 
 	nav a {
 		font-size: 15px;
@@ -921,7 +921,19 @@ MEDIA
 	.section-card{
 		width: 320px;
 	}
+
+	.port-pic{
+		max-width: 300px;
+		margin: 0 auto;
+	}
+
+	.portfolio-item{
+		max-width: 300px;
+		text-align: left;
+	}
+
 }
+
 @media only screen and (max-width: 321px){
 
 	nav a {
